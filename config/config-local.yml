@@ -1,0 +1,13 @@
+name: nakama-server
+
+logger:
+    stdout: true
+    level: "info"
+    file: "/nakama/logs/logfile.log"
+    rotation: true
+    max_backups: 10
+
+console:
+    port: 7351
+    username: "admin"
+    password: "password"
